@@ -6,7 +6,6 @@ Snake::Snake(Vec2 lead_pos, unsigned int size, float ball_r, float speed) {
 	Snake::lead_pos = lead_pos;
 	Snake::size = size;
 	Snake::ball_r = ball_r;
-	Snake::ball_diff = ball_diff;
 	Snake::speed = speed;
 	Snake::lead_vec = Vec2{ 0, 0 };
 	for (int i = 0; i < size; i++) {
